@@ -39,8 +39,6 @@
 
 
 
-
-
 # generate table using recursion
 
 def tbl(n,l):
