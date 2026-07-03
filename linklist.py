@@ -1,8 +1,8 @@
 #without parameter and no return value
-def show():
+'''def show():
     print("1000")
 
-show()    
+show() '''   
 
 
 
@@ -24,4 +24,22 @@ print(price()+2000)'''
 '''def sum(a1,a2):
     return a1+a2
 
-print(sum(10,20)*20)'''
+print(sum(10,20)*20)''' 
+
+
+
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+
+node1=node(10)       
+node2=node(20) 
+node3=node(30)
+node4=node(40) 
+node1.next=node2
+node2.next=node3
+node3.next=node4
+print(node1.next.data)
+print(node1.next.next.data)
+print(node1.next.next.next.data)
