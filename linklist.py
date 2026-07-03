@@ -33,6 +33,13 @@ class node:
         self.data=data
         self.next=None
 
+    def traverse(self,head):
+        cur = head 
+        while cur!=None:
+            print(cur.data,end="->")
+            cur = cur.next
+        print("None")      
+
 node1=node(10)       
 node2=node(20) 
 node3=node(30)
@@ -40,6 +47,8 @@ node4=node(40)
 node1.next=node2
 node2.next=node3
 node3.next=node4
-print(node1.next.data)
-print(node1.next.next.data)
-print(node1.next.next.next.data)
+h=node1
+node1.traverse(h)
+# print(node1.next.data)
+# print(node1.next.next.data)
+# print(node1.next.next.next.data)

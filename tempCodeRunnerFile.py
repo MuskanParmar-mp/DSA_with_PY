@@ -1,7 +1,3 @@
- 
-# def fact(n):
-#     if n==1:
-#         return n
-#     return n*fact(n-1)
-
-# fact(5); 
+print(node1.next.data)
+# print(node1.next.next.data)
+# print(node1.next.next.next.data)
