@@ -26,5 +26,6 @@ class linklist:
         print("None")        
             
 l1 = linklist()
-l1.Insert_begin(200)            
+l1.Insert_begin(200)
+li.Insert_begin(400)          
         
