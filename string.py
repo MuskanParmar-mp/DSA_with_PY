@@ -18,3 +18,6 @@ for char in s:
     print(char)
 
 
+print(len(s))    
+
+
