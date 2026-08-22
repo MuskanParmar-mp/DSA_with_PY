@@ -12,12 +12,32 @@
 
 
 
-s = "Python"
+'''s = "Python"
 
 for char in s:
     print(char)
 
+print(len(s)) '''
 
-print(len(s))    
+
+
+
+'''ch = 'b'
+
+if ch in 'aieou':
+    print("vowel")'''
+
+
+m = 'education'
+count = 0 
+
+for ch in m:
+    if ch in 'aieou':
+        print("vowel")
+
+
+
+    
+
 
 
