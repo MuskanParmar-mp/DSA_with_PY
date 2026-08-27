@@ -385,7 +385,7 @@ print(count)        '''
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-s = "car"
+'''s = "car"
 
 left = 0 
 right = len(s) - 1
@@ -399,7 +399,84 @@ while left < right:
     left = left + 1
     right = right - 1
 else:
-    print("palindrome")     
+    print("palindrome")   '''
+
+
+#-----------------------------------------------------------------------------------------------
+
+
+# valid palindrome 
+
+'''s = input("enter string : ")
+
+s = s.lower()
+clean = ""
+
+for ch in s:
+    if ch.isalnum():
+        clean = clean + ch
+
+left = 0
+right = len(clean) - 1
+
+while left  < right:
+
+    if clean[left] != clean[right]:
+        print("Not Palindrome")
+        break
+
+    left += 1
+    right -= 1
+
+else :
+    print("Valid Palindrome")    
+
+
+#-----------------------------------------------------------------------------------
+
+#remove duplicate char
+
+s = "prograamming"
+
+res = ""
+
+for ch in s:
+    if ch not in res:
+        res += ch
+
+print(res) 
+
+
+#--------------------------------------------------------------------
+
+#reverse a word
+
+s = input("Eneter a strig : ")
+
+words = s.split()
+
+words.reverse()
+
+result = " ".join(words)
+
+print(result)'''
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#longest word
+
+s = input("eneter string : ")
+words = s.split()
+longest = ""
+
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+
+print("losgest word : " , longest)
+   
+
 
 
 
