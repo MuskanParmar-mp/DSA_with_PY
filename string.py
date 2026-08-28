@@ -466,7 +466,7 @@ print(result)'''
 
 #longest word
 
-s = input("eneter string : ")
+s = "muskan"
 words = s.split()
 longest = ""
 
