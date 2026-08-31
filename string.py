@@ -466,7 +466,7 @@ print(result)'''
 
 #longest word
 
-s = "ankiy--t"
+s = "ankiT-t"
 words = s.split()
 longest = ""
 
