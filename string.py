@@ -436,7 +436,7 @@ else :
 
 #remove duplicate char
 
-s = "prograammming"
+s = "programming"
 
 res = ""
 
