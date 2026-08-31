@@ -407,7 +407,7 @@ else:
 
 # valid palindrome 
 
-'''s = input("enter string : ")
+s = input("enter string : ")
 
 s = s.lower()
 clean = ""
@@ -436,7 +436,7 @@ else :
 
 #remove duplicate char
 
-s = "prograamming"
+s = "prograammming"
 
 res = ""
 
@@ -459,7 +459,7 @@ words.reverse()
 
 result = " ".join(words)
 
-print(result)'''
+print(result)
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
