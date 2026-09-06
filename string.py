@@ -482,7 +482,7 @@ print("losgest word : " , longest)
 
 
 
-s = "programming"
+s = "program"
 freq = {}
 
 for ch in s:
