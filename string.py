@@ -501,4 +501,22 @@ for ch, count in freq.items():
 
 
 
-          
+a = ["apple", "kiwi", "ornage"]         
+for i in range(len(a)):
+    print(i)
+
+print(len(a))
+
+
+#count by dictionary
+
+s = "banana" 
+freq={}                                      #count by dictionary
+
+for ch in s:
+    if ch in freq:
+        freq[ch] = freq[ch] + 1
+    else:
+        freq[ch] = 1
+
+print(freq)    
