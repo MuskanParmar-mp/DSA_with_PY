@@ -18,3 +18,43 @@ for i in range(len(li)):
      if li[i] > 50:
           total += li[i]
 print(total)          
+
+
+
+li = [12,45,67,89]
+total = 0
+
+for i in range(len(li)):
+     if li[i] < 50:
+          total += li[i]
+print(total)
+
+#===============================================================================================
+
+li = [12,45,67,89]
+total = 0
+
+for i in range(len(li)):
+     if li[i] % 2 == 0:
+          total += li[i]
+print(total)
+
+
+#===================================================================================================
+
+li = [12,45,67,89]
+count = 0 
+
+for i in range(len(li)):
+     count += 1
+print(count)
+
+
+
+li = [12,45,67,89]
+sum = 0 
+
+for i in range(len(li)):
+     if li[i] % 5 == 0:
+          sum += li[i]
+print(sum)
