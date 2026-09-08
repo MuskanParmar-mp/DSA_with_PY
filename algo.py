@@ -34,7 +34,7 @@
 
 #selection sort  
 
-arr = [9,8,7,6,5]
+'''arr = [9,8,7,6,5]
 c=0
 def selection(nums):
     n = len(nums)
@@ -55,6 +55,12 @@ def selection(nums):
     return nums
 
 print(selection(arr))
-print("total hits=",c)
+print("total hits=",c)'''
 
 
+l = ["t", "k", "w"]
+print(l)
+
+
+for i in range(len(l)):
+    print(l[i])
