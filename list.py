@@ -83,6 +83,18 @@ print(b)
 
 
 
+a = [12,34,56,34,45]
+b = list(filter(lambda i : i % 2 != 0,a))
+print(b)
+
+
+a = [12,34,56,34,45]
+b = list(filter(lambda i : i > 20 ,a))
+print(b)
+
+
+
+
 
 
 
