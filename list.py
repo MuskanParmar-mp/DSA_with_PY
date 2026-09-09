@@ -92,9 +92,35 @@ a = [12,34,56,34,45]
 b = list(filter(lambda i : i > 20 ,a))
 print(b)
 
+a = [2,4,6]
+b = list(map(lambda i: i * 2, a))
+print(b)
+
+
+
+#=================================================================================
+
+#using list comprehence
+
+
+a = [12,34,56,34,45]
+a = [i+10 for i in a]
+print(a)
+
+
+a = [i for i in a if i % 2 == 0]
+print(a)
 
 
 
 
 
+a = [1, 2, 3, 4]
+b = []
 
+for i in a:
+    if i % 2 == 0:
+         b.append(i + 20)
+    
+
+print(b)
