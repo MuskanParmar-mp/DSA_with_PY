@@ -1,4 +1,4 @@
-class Student:
+'''class Student:
     course = "BCA"
     def Info(self,name,age):
         self.name=name
@@ -24,4 +24,23 @@ total = 0
 for i in range(len(a)):
     total += a[i]
 
-print(total) 
+print(total) '''
+
+
+
+
+class Student:
+    course = "BCA"
+    def Info(self,name,age):
+        self.name=name
+        self.age = age
+
+
+
+
+name = ["rahul sharma", "priya singh", "aman verma", "sneha patel", "rohit gupta"]
+age =  [ 20,21,19,22,20]
+course = [ "java", "python", ]
+
+
+
