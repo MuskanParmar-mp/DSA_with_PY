@@ -124,3 +124,25 @@ for i in a:
     
 
 print(b)
+
+
+
+n = int(input())
+i = 2
+prime = True
+
+while(i <=n//2):
+    if(n%i == 0):
+        prime = False
+        break   
+    i = i+1  
+    
+if (prime == True):
+    print("True")
+else:
+    print("False")   
+
+
+
+
+        

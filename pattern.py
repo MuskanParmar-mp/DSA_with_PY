@@ -16,7 +16,19 @@ for i in range(1, n+1):
 
 
 
+n = int(input())
 
+if n < 2:
+    print(False)
+else:
+    prime = True
+
+    for i in range(2, n):
+        if n % i == 0:
+            prime = False
+            break
+
+    print(prime)
 
 
 
