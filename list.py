@@ -145,4 +145,11 @@ else:
 
 
 
-        
+
+
+li = [12,45,67,89]
+count = 0 
+
+for i in range(len(li)):
+     count += 1
+print(count)
