@@ -520,3 +520,17 @@ for ch in s:
         freq[ch] = 1
 
 print(freq)    
+
+
+
+
+
+text = "Programmingcode"
+
+target = input("Enter Char:")
+count = 0 
+
+for ch in text:
+    if ch == target:
+        count += 1
+print(count)   
