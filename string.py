@@ -407,7 +407,7 @@ else:
 
 # valid palindrome 
 
-s = input("enter string : ")
+'''s = input("enter string : ")
 
 s = s.lower()
 clean = ""
@@ -533,4 +533,16 @@ count = 0
 for ch in text:
     if ch == target:
         count += 1
-print(count)   
+print(count)   '''
+
+str = input("enter a str")
+
+count = 0
+for ch in str:
+    if ch in "aeiou":
+        count += 1
+if count>0:
+    print("vowel")
+    print(count)
+else:
+    print("not vowel")            

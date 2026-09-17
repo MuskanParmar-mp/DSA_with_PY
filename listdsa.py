@@ -3,6 +3,8 @@ count = 0
 
 for i in range(len(a)):
     count = count + a[i]
-print(count)    
+print(count)  
+
+
 
 
