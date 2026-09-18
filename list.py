@@ -147,7 +147,7 @@ else:
 
 
 
-li = [12,45,67,89]
+li = [12,45,67,89,10]
 count = 0 
 
 for i in range(len(li)):
