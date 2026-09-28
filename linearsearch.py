@@ -20,7 +20,7 @@ print(result)   '''
 
 # Binary Search
 
-li = [4, 7, 8, 10, 23, 45, 78]
+'''li = [4, 7, 8, 10, 23, 45, 78]
 
 target = 23
 
@@ -43,3 +43,26 @@ while start <= end:
 else:
     print("Element not found")
 
+
+li = [4, 7, 8, 10, 23, 45, 78]
+taget = 23
+
+start = 0
+end = len(li) - 1
+
+while start < end:'''
+
+
+
+
+# sort 
+
+l = [4, 7, 8, 10, 23, 45, 78]
+start = 0
+end = size - 2
+
+for i in range(1,size):
+    for j in range(0, size-i):
+        if l[j] > l[j+1]:
+            l[j], l[j+1] = l[j+1], l[j]
+            
