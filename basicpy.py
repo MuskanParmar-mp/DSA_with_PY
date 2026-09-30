@@ -9,3 +9,16 @@ if (age >= 18):
     print("you vote")
 else:
     print("you cannot vote")    
+
+
+
+
+a = [12, 12, 45, 45, 67, 78]
+
+b = []
+
+for i in a:
+    if i not in b:
+        b.append(i)
+
+print(b)
