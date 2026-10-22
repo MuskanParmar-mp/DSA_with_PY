@@ -1,13 +1,13 @@
 #Second Largest Element
 
 
-# approach 1 : sorting 
+# approach 1 : sorting -----------------------------------
 
-arr = [10,4,64,25,75,22,83]
+'''arr = [10,4,64,25,75,22,83]
 arr.sort()
 print(arr[-2])
 
-# approach 2 :Without sorting
+# approach 2 :Without sorting-----------------------------------
 
 arr =  [10,3,4,23,20]
 largest = float('-inf')
@@ -19,16 +19,92 @@ for num in arr:
         largest = num 
     elif num > second_l  and num != largest:
         second_l = num
-print(second_l)
+print(second_l)'''
+
+
+
+#=============================================================================
+# Move all Zeroes to End
+#=============================================================================
+
+
+# Simple Approach
+
+'''arr = [0,1,4,5,0,21,0]
+result = []
+
+for num in arr:
+    if num != 0 :
+        result.append(num)
+
+count_zero = arr.count(0)
+
+for i in range(count_zero):
+    result.append(0)
+
+print(result)
+'''
+
+# Better Interview Approach — Two Pointer
+
+
+arr = [0,1,0,3,12]
+
+pos = 0
+
+for i in range(len(arr)):
+    if arr[i] != 0:
+        arr[pos] == arr[i]
+        pos += 1
+
+while pos < len(arr):
+    arr[pos] = 0
+    pos += 1
+print(arr)    
 
 
 
 
-
- 
-arr = [10,4,64,25,75,22,83]
-arr
-
+#=============================================================================
+# Remove Duplicates
+#=============================================================================
 
 
-    
+# using set
+
+a = [1, 2, 2, 3, 4, 4, 5]
+res = list(set(a))
+
+print(res)
+
+
+
+# without set
+
+a =  [1, 2, 2, 3, 4, 4, 5,6]
+result = []
+
+for num in a:
+    if num not in result:
+        result.append(num)
+print(result)        
+
+
+
+#=============================================================================
+# Remove Duplicates
+#=============================================================================
+
+
+
+arr = [1, 2, 2, 3, 1, 2, 4]
+
+freq = {}
+
+for num in arr:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+
+print(freq)            
