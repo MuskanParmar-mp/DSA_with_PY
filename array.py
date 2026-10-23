@@ -65,4 +65,21 @@ for i in range(len(a)):
       print(i)
 
 
+
       
+
+
+
+arr = [0,1,4,5,0,21,0]
+result = []
+
+for num in arr:
+    if num != 0 :
+        result.append(num)
+
+count_zero = arr.count(0)
+
+for i in range(count_zero):
+    result.append(0)
+
+print(result)      
