@@ -108,3 +108,20 @@ for num in arr:
         freq[num] = 1
 
 print(freq)            
+
+
+
+
+#Approach 2 — Dictionary
+
+arr = [2, 7, 11, 15]
+target = 9
+seen = {}
+
+for num in arr:
+    needed = target - num
+
+    if needed in seen:
+        print(needed,num)
+        break
+    seen[num] = True
