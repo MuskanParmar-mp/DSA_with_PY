@@ -125,3 +125,14 @@ for num in arr:
         print(needed,num)
         break
     seen[num] = True
+
+
+
+arr = [2,7,11,13]
+target = 9
+
+for i in range(len(arr)):
+    for j in range(i+1,len(arr)):
+
+        if arr[i] + arr[j] == target:
+            print(arr[i], arr[j])
