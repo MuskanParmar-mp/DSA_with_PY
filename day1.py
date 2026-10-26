@@ -128,7 +128,7 @@ for num in arr:
 
 
 
-arr = [2,7,11,13]
+arr = [2,7,11,13,15]
 target = 9
 
 for i in range(len(arr)):
