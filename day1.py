@@ -136,3 +136,15 @@ for i in range(len(arr)):
 
         if arr[i] + arr[j] == target:
             print(arr[i], arr[j])
+
+
+
+
+# linear search
+a = [31,65,85,26,5,26]
+
+target = 5
+for i in range(len(a)):
+    if a[i] == target:
+      print(i)
+
