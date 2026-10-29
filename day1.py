@@ -148,3 +148,11 @@ for i in range(len(a)):
     if a[i] == target:
       print(i)
 
+
+
+a = [31,65,76,42,23]
+
+target = 5
+for i in range(len(a)):
+    if a[i] == target:
+      print(i)
