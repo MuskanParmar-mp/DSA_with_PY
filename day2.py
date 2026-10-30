@@ -30,8 +30,17 @@ for num in arr:
 
 
 
-
-
-
 # Missing Number ======================================================================
 
+
+
+# fetch the element 1 by 1
+
+arr = [10,20,30]
+for i in range(len(arr)):
+    print(arr[i])
+
+
+# Insertion
+arr = [10,20,30]
+print(arr.insert(1,50))
