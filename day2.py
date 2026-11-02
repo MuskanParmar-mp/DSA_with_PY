@@ -42,5 +42,5 @@ for i in range(len(arr)):
 
 
 # Insertion
-arr = [10,20,30]
+arr = [10,20,30,40]
 print(arr.insert(1,50))
